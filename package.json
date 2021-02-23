@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "DEBUG=backend:server node ./bin/www",
-    "dev": "nodemon --config nodemon.json ./bin/www"
+    "dev": "nodemon --config nodemon.json ./bin/www",
+    "lint": "eslint \"**/*.js\"",
+    "lint-fix": "eslint \"**/*.js\" --fix"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
