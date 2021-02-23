@@ -1,0 +1,6 @@
+{
+    "env":{
+        "DEBUG":"backend:server",
+        "NODE_ENV": "development"
+    }
+}
